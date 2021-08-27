@@ -23,7 +23,7 @@
 
 Sistema (SPA) criado com ReactJS e TypeScript para exploração de repositórios GitHub. Este projeto permite salvar e listar repositórios e oferece uma maneira fácil de acessar a página de detalhes do repositório.
 
-Foi construído como um exercício do GoStack Bootcamp da Rocketseat para colocar em prática os estudos de ReactJS, React Hooks, Styled Components, React Router Dom, Layout responsivo e GitHub Pages para deploy.
+Foi construído como um exercício do GoStack Bootcamp da Rocketseat para colocar em prática os estudos de ReactJS, React Hooks, Styled Components, React Router Dom.
 
 Este projeto se conecta à API oficial do GitHub para obter os dados.
 
@@ -59,7 +59,7 @@ cd github_explorer
 
 # realize a instação de todas as dependências
 yarn
-# ou utilizando o NPM 
+# ou utilizando o NPM
 npm install
 
 # rode o app com o comando
