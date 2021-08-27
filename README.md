@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+  <img width=400px height=200px src=".github/logo.svg" alt="GitHub Explorer logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Ferramenta para exploração de repositórios do GitHub. Desenvolvido com ReactJS | TypeScript | Styled Components</h3>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<a align="center">
+<img src=".github/preview.gif" alt="GitHub Explorer Demo">
+</a>
 
-### `yarn start`
+## 📝 Conteúdo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Sobre](#about)
+- [Iniciando](#getting_started)
+- [Techs utilizadas](#built_using)
+- [Autor](#authors)
+- [Agradecimentos](#acknowledgement)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧐 Sobre o projeto <a name = "about"></a>
 
-### `yarn test`
+Sistema (SPA) criado com ReactJS e TypeScript para exploração de repositórios GitHub. Este projeto permite salvar e listar repositórios e oferece uma maneira fácil de acessar a página de detalhes do repositório.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Foi construído como um exercício do GoStack Bootcamp da Rocketseat para colocar em prática os estudos de ReactJS, React Hooks, Styled Components, React Router Dom, Layout responsivo e GitHub Pages para deploy.
 
-### `yarn build`
+Este projeto se conecta à API oficial do GitHub para obter os dados.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏁 Iniciando <a name = "getting_started"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Essas instruções fornecerão uma cópia do projeto instalado e funcionando em sua máquina local para fins de desenvolvimento e teste.
 
-### `yarn eject`
+### Pré requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Tudo o que você precisa para instalar o software:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**NodeJS** <br>
+[NodeJS](https://nodejs.org/en/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Um gerenciador de pacotes como NPM ou Yarn** <br>
+[Node.js](https://nodejs.org/en/)
+[Yarn](https://yarnpkg.com/pt-BR/docs/install)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Git instalado em sua máquina (Mac e Linux já vem instalado)** <br>
+[Download Git para seu SO](https://git-scm.com/downloads)
 
-## Learn More
+### Instalação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### modo de desenvolvimento ( rodando localmente )
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```shell
+# abra seu terminal/cmd e realize o clone do repositório
+git clone https://github.com/lucasbarque/github_explorer.git
+
+# vá até a pasta github-explorer
+cd github_explorer
+
+# realize a instação de todas as dependências
+yarn
+# ou utilizando o NPM 
+npm install
+
+# rode o app com o comando
+yarn start
+#ou com o NPM
+npm run start
+
+# Pronto o app estará disponível no endereço "http://localhost:3000" 🎉🎉🎉
+
+```
+
+## ⛏️ Tecnologias utilizadas <a name = "built_using"></a>
+
+- [ReactJS](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwie4-3NjZPpAhU7EbkGHRGZBoQQFjAAegQIExAC&url=https%3A%2F%2Fpt-br.reactjs.org%2F&usg=AOvVaw3IQxnDAV4OTuyk7FEN--qA)
+- [TypeScript](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwi02eObjpPpAhVPIrkGHWAyAycQFjAAegQIARAB&url=https%3A%2F%2Fwww.typescriptlang.org%2F&usg=AOvVaw0CNxTP-CKE5ss0r3aWazpG)
+- [Styled Components](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj5n6jJjZPpAhV6LLkGHed1B80QFjAAegQIBxAC&url=https%3A%2F%2Fwww.styled-components.com%2F&usg=AOvVaw0J6heqwwkbKYNkr_2e7jIU)
+- [Axios](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjcm422jZPpAhXlH7kGHYk4AK8QFjAAegQIAxAB&url=https%3A%2F%2Fgithub.com%2Faxios%2Faxios&usg=AOvVaw266wVW3XPRY46nOw2ULXdh)
+- [React Router DOM](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjEvujUjZPpAhVJIbkGHaNUDdEQFjAAegQIAhAB&url=https%3A%2F%2Freacttraining.com%2Freact-router%2Fweb&usg=AOvVaw39MVbEMEQCl6DDWEkh8tYs)
+- [React Icons](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiW56XrjZPpAhUiHbkGHUrjDCMQFjAAegQIARAB&url=https%3A%2F%2Freact-icons.github.io%2Freact-icons%2F&usg=AOvVaw2p26skb8fJ07Tiqs_rtKvr)
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@lucasbarque](https://github.com/lucasbarque/)
+- Sinta-se à vontade para dar feedbacks [Linkedin](https://www.linkedin.com/in/lucas-barque/)
+
+## 🎉 Agradecimentos <a name = "acknowledgement"></a>
+
+- [Time da Rocketseat](https://rocketseat.com.br/)
+- [Diego Fernandes, CTO na Rocketseat](https://github.com/diego3g)
