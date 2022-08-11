@@ -11,6 +11,10 @@
 <img src=".github/preview.gif" alt="GitHub Explorer Demo">
 </a>
 
+## 🔥 Preview
+
+[![Deploy with Vercel](https://vercel.com/button)](https://github-explorer-ten-jet.vercel.app/)
+
 ## 📝 Conteúdo
 
 - [Sobre](#about)
